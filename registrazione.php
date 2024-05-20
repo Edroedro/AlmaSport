@@ -29,7 +29,7 @@
             if(mysqli_num_rows($verify_query) != 0){
 
                 echo "<div class = 'message'> 
-                <p> Questa email è gia utilizzata</p> 
+                <p> Questa email è gia registrata</p> 
                 </div> <br> ";
 
                 echo "<a href= 'Javascript:self.history.back()'> <button class='btn' > Torna indietro</button>";
