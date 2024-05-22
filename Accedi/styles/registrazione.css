@@ -156,11 +156,11 @@
     }
     
     
-    #dot-1:checked ~ .category label .one, 
-    #dot-2:checked ~ .category label .two,
-    #dot-3:checked ~ .category label .three,
-    #dot-4:checked ~ .category label .four,
-    #dot-5:checked ~ .category label .five{
+    #dot-1:checked ~  label .one, 
+    #dot-2:checked ~  label .two,
+    #dot-3:checked ~  label .three,
+    #dot-4:checked ~  label .four,
+    #dot-5:checked ~  label .five{
     
     border-color:#fff;
     background: #810614;
