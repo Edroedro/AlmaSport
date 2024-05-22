@@ -185,13 +185,11 @@ p{
     color:white; 
 }
 a.button{ 
-    height:80px;
-    width:220px;
     background: rgba(90, 81, 216, 0.808);
     border: 0;
     border-radius: 10px;
     color: #fff;
-    font-size: 32px;
+    font-size: 44px;
     cursor: pointer;
     transition: all .3s;  
     text-decoration: none;
