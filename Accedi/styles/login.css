@@ -134,7 +134,7 @@ margin-left: 10px;
 
 .backbtn{ 
     height: 80px;
-    width:200px;
+    width:220px;
     background: rgba(90, 81, 216, 0.808);
     border: 0;
     border-radius: 10px;
@@ -145,7 +145,15 @@ margin-left: 10px;
     text-decoration: none;
     list-style: none;
     margin:0 20px
-} 
+}
+a.backbtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    text-decoration: none;
+}
+
 .backbtn:hover{
     text-decoration: none;
     list-style: none;
@@ -153,6 +161,9 @@ margin-left: 10px;
     color: #810614;
     background: white;
     opacity: 0.8;
+}
+a.backbtn:hover{
+    text-decoration: none   ;
 }
 
 
