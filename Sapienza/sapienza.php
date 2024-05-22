@@ -89,9 +89,15 @@
                     Scopri subito lo sconto che ti aspetta a seconda del tuo status di studente! Che tu sia un semplice studente o <br>uno studente-lavoratore, questa affiliazione ti permetterà di risparmiare il più possibile!
                 </div>
             </div>
-            <div class="registrati">
+            <?php if ($logged): ?>
+                <?php echo "<div class='message'>
+                 <p>Ciao $nome! Solo per questo periodo e unicamente per i membri registrati c'è il nuovo codice sconto </p><h2>30PLS</h2><p> che ti assicurerà il 30% di sconto sia per i prodotti dello shop, sia per i nostri corsi! </p></div>";?>
+            <?php else: ?>
+                <div class="registrati">
                 <a href="../Accedi/registrazione.php"><button class="button">Ottieni il tuo sconto subito!</button></a>
-            </div>
+                </div>
+            <?php endif; ?>
+
         </div>
         <footer>
             <div class="footer">
