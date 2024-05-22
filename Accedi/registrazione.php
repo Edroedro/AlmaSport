@@ -119,11 +119,11 @@
                
             </div>
             <div class="status">
-                <input type="radio"name="Status" id="dot-1">
-                <input type="radio"name="Status" id="dot-2">
-                <input type="radio"name="Status" id="dot-3">
-                <input type="radio"name="Status" id="dot-4">
-                <input type="radio"name="Status" id="dot-5">
+                <input type="radio"name="Status" id="dot-1" value="In corso">
+                <input type="radio"name="Status" id="dot-2" value="Fuori corso">
+                <input type="radio"name="Status" id="dot-3" value="DSA">
+                <input type="radio"name="Status" id="dot-4" value="Studente-lavoratore">
+                <input type="radio"name="Status" id="dot-5" value="Studente-genitore">
                 <span class="status-title">STATUS:</span>
                 <div class="category">
                     <label for="dot-1">

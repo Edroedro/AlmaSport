@@ -23,7 +23,7 @@
                   echo "<div class='message'>
                     <p>Prova per $corso prenotata correttamente!</p>
                      </div> <br>";
-                   echo "<a href='../Homepage/home.php'><button class='backbtn'>Torna alla home</button></a>";
+                   echo "<a class=button href=../Homepage/home.php> Torna alla Home </a>";
 
             }else{
 
