@@ -34,7 +34,7 @@
                    echo "<div class='message'>
                      <p>Matricola o Password errata</p>
                       </div> <br>";
-                    echo "<a href='Javascript:self.history.back()'><button class='btn'>Torna indietro</button></a>";
+                    echo "<a href='Javascript:self.history.back()'button class='backbtn'>Torna indietro</a>";
         
                }
 
