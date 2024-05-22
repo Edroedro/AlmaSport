@@ -181,7 +181,9 @@ transition: 0.3s;
 
 }
 p{
-    font-size: 24px;
+    text-align:start;
+    font-size: 32px;
+    color:white;
 }
 .backbtn{ 
     height: 80px;
@@ -196,7 +198,8 @@ p{
     text-decoration: none;
     list-style: none;
     margin:10% 0;
-    margin-right: 25%;
+    margin-right: 35%;
+    margin-top: 1px;
 } 
 .backbtn:hover{
     text-decoration: none;
