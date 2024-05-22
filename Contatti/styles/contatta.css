@@ -178,6 +178,33 @@ transition: 0.3s;
     cursor:pointer;
     background-color: #00C0ED;
     transform: scale(1.1);
+
+}
+p{
+    font-size: 24px;
+}
+.backbtn{ 
+    height: 80px;
+    width:200px;
+    background: rgba(90, 81, 216, 0.808);
+    border: 0;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 32px;
+    cursor: pointer;
+    transition: all .3s;
+    text-decoration: none;
+    list-style: none;
+    margin:10% 0;
+    margin-right: 25%;
+} 
+.backbtn:hover{
+    text-decoration: none;
+    list-style: none;
+    transform: scale(1.1);
+    color: #810614;
+    background: white;
+    opacity: 0.8;
 }
 
 
@@ -201,6 +228,9 @@ transition: 0.3s;
 
 
         width:70%;
+    }
+    .backbtn{
+        margin-right: 0%;
     }
 
 
