@@ -21,7 +21,9 @@
 <body>
       <nav>
         <div class="logo">
-            <img src="sfondi/AlmaSportLogo.jpeg" width="100px" height="100px">
+            <a href="../Homepage/home.php">
+                <img src="sfondi/AlmaSportLogo.jpeg" width="100px" height="100px">
+            </a>        
         </div>
         <input type="checkbox" id="more">
         <label for="more" class="morebtn">
@@ -54,10 +56,10 @@
                     </ul>
                 </li>
                 
-                <li> <a href="">SHOP</a></li>
+                <li> <a href="../Shop/almaShop.php">SHOP</a></li>
                 <?php if ($logged): ?>
 
-                <li><a href="../Connessione/logout.php"><?php echo $nome; ?></a></li>
+                <li><a href="../Connessione/conf_logout.php"><?php echo $nome; ?></a></li>
             <?php else: ?>
                 <li><a href="../Accedi/login.php">ACCEDI</a></li>
             <?php endif; ?>
@@ -67,7 +69,7 @@
             <ul>
                 <li><a href="../Trova/trovapalestra.php">Trova una Palestra</a></li>
                 <li><a href="../Sapienza/sapienza.php">Sapienza</a></li>
-                <li><a href="../Sapienza/sapienza.php">Perché Sceglierci?</a></li>
+                <li><a href="../Chisiamo/chisiamo.php">Perché Sceglierci?</a></li>
                 <li><a href="../Contatti/contatta.php">Contatti</a></li>
             </ul>
         </div>
