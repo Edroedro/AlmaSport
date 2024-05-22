@@ -34,7 +34,19 @@
 
                 <!--seconda grid-->
 
-                <div>
+                <form action="contatta.php" method="POST">
+                <?php 
+            
+             include("../Connessione/config.php");
+             if(isset($_POST['submit'])){
+                   echo "<div class='message'>
+                     <p>Il tuo messaggio è stato inviato correttamente</p>
+                      </div> <br>";
+                    echo "<a href='Javascript:self.history.back()'><button class='backbtn'>Torna alla home</button></a>";
+
+             }else{
+
+            ?>
                     <input type="text" placeholder="NOME" required>
                     <input type="text" placeholder="COGNOME" required>
                     <input type="text" placeholder="EMAIL" required>
@@ -42,11 +54,13 @@
 
                     <textarea name="message" placeholder="invia messaggio" cols="40" rows="20" required></textarea>
 
-                    <button class="submit" value="INVIA"> INVIA</button>
-                </div>
+                    <input type="submit" name="submit" class="submit" value="Invia Ora">  
+                </form>
 
 
             </div>
+            <?php } ?>
+
         </div>
     </sectiion>
 
