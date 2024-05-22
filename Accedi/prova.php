@@ -20,8 +20,9 @@
             include("../Connessione/config.php");
             if(isset($_POST['submit'])){
                 $corso =$_POST['Corso'];
-                  echo "<div class='message'>
-                    <p>Prova per $corso prenotata correttamente!</p>
+                $nome= $_POST['nome'];
+                  echo "<div class='message'>  
+        <p> Ciao $nome Prova per $corso prenotata correttamente!</p> 
                      </div> <br>";
                    echo "<a class=button href=../Homepage/home.php> Torna alla Home </a>";
 
