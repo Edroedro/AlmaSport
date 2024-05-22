@@ -34,7 +34,7 @@
 
                 <!--seconda grid-->
 
-                <form action="contatta.php" method="POST">
+                <form action="" method="POST">
                 <?php 
             
              include("../Connessione/config.php");
@@ -42,7 +42,7 @@
                    echo "<div class='message'>
                      <p>Il tuo messaggio è stato inviato correttamente</p>
                       </div> <br>";
-                    echo "<a href='Javascript:self.history.back()'><button class='backbtn'>Torna alla home</button></a>";
+                    echo "<a href='../Homepage/home.php'><button class='backbtn'>Torna alla home</button></a>";
 
              }else{
 
