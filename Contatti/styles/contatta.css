@@ -1,0 +1,207 @@
+body{
+
+    padding:0;
+    margin:0;
+    font-family: 'Times New Roman', Times, serif;
+   /* background: url(../sfondi/contact.jpg);*/
+   background-color: #0097C3;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.container{
+
+width: 90%;
+margin:auto;
+overflow: hidden;
+
+}
+span.form-info{
+    display:flex;
+    justify-items: center;
+    text-align: center;
+    width: 250px;
+
+}
+.container h2{
+    align-items: center;
+    font-size: 42px;
+    color: #810614;
+    margin-left: 10%;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+#contact-section{
+
+height:100%;
+    width:100%;
+padding-bottom: 2%;
+
+}
+
+#contact-section .container{
+
+text-align: center;
+text-decoration: none;
+text-underline-position: under;
+color:white;
+font-size: 24px;
+
+
+
+}
+
+#contact-section.container p{
+
+    text-align: center;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 3%;
+    color:white;
+
+
+}
+
+
+.contact-form i.fa{
+
+font-size: 22px;
+padding: 3%;
+background-color: none;
+margin:2%;
+border-radius: 80%;
+cursor: pointer;
+border:2px solid;
+color:white;
+
+}
+
+.contact-form i.fa:hover{
+
+cursor:auto;
+border:2px solid black ;
+color:#810614;
+
+}
+
+.contact-form{
+
+    display:grid;
+    grid-template-columns: auto auto;
+    grid-gap: 5px;
+
+
+}
+
+
+.form-info{
+
+font-size: 16px;
+font-style: italic;
+color:white;
+justify-content: center;
+
+
+}
+
+input{
+
+padding: 10px;
+margin:10px;
+width:70%;
+background-color: white;
+color:#000;
+outline:none;
+border: white;
+border-radius: 5px 5px;
+border:solid;
+border-color: #810614;
+
+}
+
+input::placeholder{
+
+color:#00C0ED;
+
+}
+
+textarea{
+    
+padding: 10px;
+margin:10px;
+width:70%;
+height: 250px;
+background-color: white;
+color:#000;
+border:solid;
+outline:none;
+border-radius: 5px 5px;
+border-color: #810614;
+
+}
+
+textarea::placeholder{
+
+
+    color:#00C0ED;
+}
+
+.submit{
+
+width:50%;
+background: none;
+padding:4px;
+outline: none;
+font-size:16px;
+font-weight: bold;
+letter-spacing: 2px;
+height:50px;
+text-align: center;
+cursor:pointer;
+letter-spacing: 2px;
+margin-left:3%;
+margin-bottom: 1%;
+border:2px solid rgb(238,235,235);
+color: #0097C3;
+background-color: white;
+border-color: #810614;
+transition: 0.3s;
+}
+
+.submit:hover{
+
+    border:2px solid #fff;
+    color:#fff;
+    cursor:pointer;
+    background-color: #00C0ED;
+    transform: scale(1.1);
+}
+
+
+/* media queries */
+
+@media(max-width:768px){
+    span.form-info{
+        text-align: center;
+        display: block;
+        justify-content: center;
+        width: 100%;
+    }
+
+    #contact-section .contact-form{
+
+        display: block;
+        width:100%;
+        text-align: center;
+    }
+    #contact-section .submit{
+
+
+        width:70%;
+    }
+
+
+}
