@@ -1,0 +1,111 @@
+body{
+
+    background-color: #00C0ED;
+    overflow: hidden;
+    
+    }
+    
+    .area-prova{
+    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    justify-content: center;
+    align-items: center;
+    
+    }
+    
+    .prova{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:  #00C0ED;
+    background: linear-gradient(rgba(0,0,0,0.26),rgba(0,0,0,0.26)),   url("../sfondi/AlmaSportLogo.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 700px;
+    width: 600px;
+    height:550px;
+    padding:35px;
+    border-radius: 10px 10px;
+    border-color: #E6F4F1;
+    border-style: solid;
+    
+    }
+
+    .prova .title{
+        font-size: 42px;
+        font-weight:500;
+        position:relative;
+        color: white;
+        font-weight: bold;        
+        text-align: center;
+        font-style: italic;
+        margin-bottom: 5%;
+    }
+    
+    
+    .prova form{
+    
+    display: flex;
+    flex-direction: column;
+    
+    
+    }
+    
+    .prova input{
+    
+    margin-top: 10px;
+    background-color:#fff;
+    padding-left: 10px;
+    color: black;
+    border:none;
+    height:45px;
+    outline: none;
+    border-radius: 8px;
+    
+    }
+    
+    
+    .prova img{
+    
+    width: 90px;
+    height: auto;
+    
+    }
+    
+    .input::placeholder{
+    
+    color:black;
+    font-size: 14px;
+    
+    }
+
+
+    .prova select{
+
+        margin-top:16px;
+        width: auto;
+        height:auto;
+
+
+
+
+
+
+    }
+    
+    form [type="submit"]{
+    
+    display: block;
+    background-color:#fff;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight:bold;
+    cursor: pointer;
+    
+    
+    }
+    
+        
