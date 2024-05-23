@@ -16,7 +16,7 @@
 
 
     <script src="../Javascript/script_home.js"></script>
-    <title>Padel</title>
+    <title>Pallavolo</title>
 </head>
 <body>
       <nav>

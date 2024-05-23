@@ -80,7 +80,7 @@
                 YOGA
             </div>    
             <div class="container_piccolo">
-                <div class="immagine"><img src="sfondi/allenamento_yoga.jpg" width="450px", height="450px"></div>
+                <div class="immagine"><img src="sfondi/allenamento_yoga.png" width="450px", height="450px"></div>
                 <div class="testo1">Immagina di ritrovarti su un tappetino, circondato da una calma rassicurante, mentre ti immergi in una serie di posizioni fluide e respiri profondi. 
                     Gli studi universitari possono essere impegnativi e stressanti, ma lo yoga offre uno spazio di calma e riflessione. Imparerai a respirare consapevolmente, a rilassare la mente e a ridurre lo stress accumulato dalle pressioni accademiche e quotidiane. 
                     Lo yoga non è solo una pratica di meditazione, ma anche un modo efficace per migliorare la tua flessibilità e forza. Attraverso una serie di pose e movimenti controllati, allungherai i muscoli, rafforzerai il corpo e migliorerai la tua postura. 
