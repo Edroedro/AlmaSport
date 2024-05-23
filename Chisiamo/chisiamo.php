@@ -27,7 +27,7 @@
         </div>
         <input type="checkbox" id="more">
         <label for="more" class="morebtn">
-            <a href="../Trova/trovapalestra.php"><i class='bx bx-dumbbell' ></i></a>
+        <a href="../Trova/trovapalestra.php"><i class='bx bx-dumbbell' ></i></a>
             <a href="../Sapienza/sapienza.php"><i class='bx bxs-graduation' ></i>  </a>
             <a href="chisiamo.php"><i class='bx bx-info-circle'></i></a>
             <a href="../Contatti/contatta.php"><i class='bx bxs-contact' ></i></a>
