@@ -22,7 +22,9 @@
                 $corso =$_POST['Corso'];
                 $nome= $_POST['nome'];
                   echo "<div class='message'>  
-        <p> Ciao $nome Prova per $corso prenotata correttamente!</p> 
+        <p> Ciao $nome la prova per $corso è stata prenotata correttamente!</p>
+        <p> Presentati nella palestra più vicina a te per iniziare la prova! <p>
+         
                      </div> <br>";
                    echo "<a class=button href=../Homepage/home.php> Torna alla Home </a>";
 
@@ -32,9 +34,9 @@
      
              <input type="text" name="nome" placeholder="NOME" required>
              <input type="text" name="cognome" placeholder="COGNOME" required>
-             <input type="text" name="matricola"  min="0" max="1234567" placeholder="MATRICOLA" required>
-             <input type="text" name="email" placeholder="EMAIL" autofocus>
-             <input type="text" name="cognome"  min="0" max="0123456789" placeholder="TELEFONO" required>
+             <input type="tel" inputmode="numeric" pattern="\d{7,}" name="matricola" placeholder="MATRICOLA da 7 numeri" required>
+             <input type="email" name="email" placeholder="EMAIL" required>
+             <input type="number" name="telefono" placeholder="TELEFONO" required>
              
              <select  name="Corso" required>
                 <option value="">Seleziona Corso</option>
