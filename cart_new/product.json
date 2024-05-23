@@ -1,0 +1,77 @@
+[
+    {
+        "id": 1,
+        "name": "Proteine in polvere",
+        "price": 18,
+        "image" : "proteine2 (1).jpg"
+    },
+    {
+        "id": 2,
+        "name": "Proteine in Polvere ",
+        "price": 18,
+        "image" : "proteine.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Proteine in Polvere ",
+        "price": 18,
+        "image" : "proteine3.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Vitamine in polvere",
+        "price": 12,
+        "image" : "vitamine.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Vitamine in polvere",
+        "price": 12,
+        "image" : "vitamine2.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Vitamine in polvere",
+        "price": 12,
+        "image" : "vitamine3.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Energy drink",
+        "price": 2,
+        "image" : "drink.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Energy drink",
+        "price": 2,
+        "image" : "drink2.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Energy drink",
+        "price": 2,
+        "image" : "drink3.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Barrette proteiche",
+        "price": 10,
+        "image" : "barrette.jpg"
+    },
+    {
+        "id": 11,
+        "name": "Barrette proteiche",
+        "price": 10,
+        "image" : "barrette2.jpg"
+    },
+    {
+        "id": 12,
+        "name": "Barrette proteiche",
+        "price": 10,
+        "image" : "barrette3.jpg"
+    }
+
+
+
+]
