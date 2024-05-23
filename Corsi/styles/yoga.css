@@ -110,7 +110,7 @@ nav ul ul li a:hover{
     height: 40px;
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: start;
     align-items: center;
     transition: all 0.3;
 
@@ -120,7 +120,9 @@ nav ul ul li a:hover{
     display: flex;
     list-style-type: none;
     flex-direction: row;
-    align-items: center;
+    align-items: start;
+    justify-content: start;
+    margin-left: 12vw;
 }
 
 .barradown ul li {
@@ -362,6 +364,16 @@ footer{
         color: white;
         font-size: 18px;
         margin-top: 0vh;
+    }
+    .barradown{
+        height: 38px;
+
+    }
+    .barradown ul{
+        margin-left: 1vw;
+    }
+    .barradown ul li a{
+        font-size: 20px;
     }
 
     .footer .social a{
