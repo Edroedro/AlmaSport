@@ -110,7 +110,7 @@ nav ul ul li a:hover{
     height: 40px;
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: start;
     align-items: center;
     transition: all 0.3;
 
@@ -120,7 +120,9 @@ nav ul ul li a:hover{
     display: flex;
     list-style-type: none;
     flex-direction: row;
-    align-items: center;
+    align-items: start;
+    justify-content: start;
+    margin-left: 12vw;
 }
 
 .barradown ul li {
@@ -132,10 +134,12 @@ nav ul ul li a:hover{
     font-size: 24px;
     line-height: 40px;
     padding: 0 10px;
+    text-decoration: none;
 }
 
 .barradown ul li a:hover {
     color: #810614;
+    text-decoration: none;
 }
 .morebtn{
     color: white;
@@ -369,6 +373,16 @@ footer{
     }
     .container_grande .testo2 a{
 
+        font-size: 20px;
+    }
+    .barradown{
+        height: 38px;
+
+    }
+    .barradown ul{
+        margin-left: 1vw;
+    }
+    .barradown ul li a{
         font-size: 20px;
     }
     
