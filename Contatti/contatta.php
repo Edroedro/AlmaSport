@@ -49,10 +49,10 @@
             ?>
                     <input type="text" placeholder="NOME" required>
                     <input type="text" placeholder="COGNOME" required>
-                    <input type="text" placeholder="EMAIL" required>
-                    <input type="text" placeholder="OGGETTO MESSAGGIO" required>
+                    <input type="email" placeholder="EMAIL" required>
+                    <input type="text" placeholder="OGGETTO MESSAGGIO" minlength="3" required>
 
-                    <textarea name="message" placeholder="invia messaggio" cols="40" rows="20" required></textarea>
+                    <textarea name="message" placeholder="invia messaggio" cols="40" rows="20" minlength="10" required></textarea>
 
                     <input type="submit" name="submit" class="submit" value="Invia Ora">  
                 </form>
