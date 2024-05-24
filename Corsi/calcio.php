@@ -70,7 +70,7 @@
             <ul>
                 <li><a href="../Trova/trovapalestra.php">Trova una Palestra</a></li>
                 <li><a href="../Sapienza/sapienza.php">Sapienza</a></li>
-                <li><a href="../Sapienza/sapienza.php">Perché Sceglierci?</a></li>
+                <li><a href="../Chisiamo/chisiamo.php">Perché Sceglierci?</a></li>
                 <li><a href="../Contatti/contatta.php">Contatti</a></li>
             </ul>
         </div>
