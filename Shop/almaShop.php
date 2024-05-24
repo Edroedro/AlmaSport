@@ -57,8 +57,8 @@
     <section class="home">
         <div class="home-text" data-aos="fade-up">
             <h6>Welcome to Almashop!</h6>
-            <h1>Interamente dedicato agli studenti <br> Approfitta!!!</h1>
-            <p>Iscriviti e potrai usufruire subito del 30% di sconto con il codice '30PLS'</p>
+            <h1>Dedicato agli studenti <br> Approfitta adesso!</h1>
+            <p>Iscriviti e potrai usufruire subito dell'esclusivo codice sconto!</p>
             <a href="cart.php" class="btn">Acquista ora!
                 <i class="ri-arrow-right-line"></i>
             </a>      
