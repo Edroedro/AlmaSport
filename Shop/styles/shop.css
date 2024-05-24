@@ -11,7 +11,7 @@
 
     :root{
 
-        --bg-color: #666;
+        --bg-color: #E6F4F1;
         --text-color:#00C0ED;
         --main-color:#f0f0f0;
         --other-color: #ffc633;
@@ -58,7 +58,7 @@
     .navlist a{
         display: inline-block;
         margin:0 30px;
-        font-size: var(--p-font);
+        font-size:24px;
         font-weight: 500;
         color:var(--text-color);
         transition:all .6s;
@@ -66,7 +66,7 @@
 
     .navlist a:hover{
         transform: translateY(-4px);
-        color:var(--second-color);
+        color: #810614;
 
     }
 
@@ -79,7 +79,7 @@
 
     .nav-right a{
         display: inline-block;
-        font-size:22px;
+        font-size:24px;
         color: var(--text-color);
         margin:0 20px;
         transition: all .6s;
@@ -88,6 +88,8 @@
     .nav-right a:hover{
 
         transform:translateY(-5px) scale(1.1);
+        color: #810614;
+
     }
 
     #menu-icon{
@@ -111,7 +113,7 @@
         position:relative;
         height:100vh;
         width:100%;
-        background: url(../sfondi/homeshop2.jpg);
+        background: url(../sfondi/homeshop.jpg);
         background-size: cover;
         background-position: center;
         display: flex;
@@ -125,16 +127,16 @@
         }
 
         .home-text h1{
-            font-size:var(--h1-font);
+            font-size:3rem;
             font-weight: 700;
             line-height:1.1;
             margin-bottom: 20px;
         }
 
         .home-text h6{
-            font-size:30px;
+            font-size: 2.5rem;
             font-weight: 500;
-            color: var(--second-color);
+            color: #ffc633;
             letter-spacing: 3px;
             text-transform: uppercase;
             margin-bottom:10px;
@@ -144,7 +146,7 @@
 
             width:100%;
             max-width: 560px;
-            font-size:var(--p-font);
+            font-size:22px;
             font-weight:400;
             color:var(--second-color);
             line-height:33px;
@@ -155,10 +157,10 @@
         .btn{
 
             display: inline-block;
-            padding: 14px 42px;
+            padding: 20px 42px;
             background: var(--text-color);
             color:#fff;
-            font-size:15px;
+            font-size:24px;
             font-weight:500;
             border:2px solid transparent;
             transition: all .6s;
@@ -199,6 +201,7 @@
             overflow: hidden;
             border-radius: 28px;
             margin-bottom:15px;
+            border: #0097c3;
         }
 
         .row-img img{
@@ -207,6 +210,8 @@
             width:100%;
             transition: transform 0.5s;
             cursor:pointer;
+            border-radius: 40px;
+            border: #0097c3 solid;
         }
 
         .row-img:hover img{
@@ -235,9 +240,9 @@
         }
 
         .row-left a{
-            font-size:var(--p-font);
-            font-weight: 500;
-            color:#fff;
+            font-size: 18px;
+            font-weight: bold;
+            color:#810614;
             transition:all .6s;
         }
 
@@ -255,7 +260,7 @@
 
             font-size:19px;
             font-weight:600;
-            color:var(--second-color);
+            color:#810614
         }
 
         .n-btn{
@@ -517,6 +522,22 @@
 
                 grid-template-columns: repeat(auto-fit, minmax(300px,auto));
             }
+            .home-text h1{
+                font-size:2.5rem;
+                margin-bottom: 20px;
+            }
+    
+            .home-text h6{
+                font-size: 2.2rem;
+                letter-spacing: 1px;
+                margin-bottom:10px;
+            }
+    
+            .home-text p{
+                font-size:20px;
+                font-weight:400;
+                margin-bottom:35px;
+            }
             
         }
 
@@ -567,6 +588,23 @@
 
                 font-size: 25px;
             }
+            .home-text h1{
+                font-size:2rem;
+                margin-bottom: 20px;
+            }
+    
+            .home-text h6{
+                font-size: 2rem;
+                letter-spacing: 1px;
+                margin-bottom:10px;
+            }
+    
+            .home-text p{
+                font-size:18px;
+                font-weight:500;
+                margin-bottom:35px;
+            }
+
         }
 
         @media(max-width:530px){
@@ -585,6 +623,32 @@
 
             .nav-right a{
 
-                margin-right: 7px;
+                margin-right: 5px;
+                font-size: 18px;
             }
+            a.logo{
+                font-size: 18px;
+            }
+            .home-text h1{
+                font-size:2rem;
+                margin-bottom: 20px;
+            }
+    
+            .home-text h6{
+                font-size: 2rem;
+                letter-spacing: 0.5px;
+                margin-bottom:10px;
+                color: #00C0ED;
+
+            }
+    
+            .home-text p{
+                font-size:16px;
+                font-weight:bold;
+                margin-bottom:35px;
+            }
+            .btn{
+                background-color: #ffc633;
+            }
+
         }
