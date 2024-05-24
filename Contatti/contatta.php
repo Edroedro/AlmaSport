@@ -18,7 +18,7 @@
     
     <!--sezione-->
 
-    <sectiion id="contact-section">
+    <section id="contact-section">
         <div class="container">
             <h2>CONTATTACI</h2>
             <p></p>
@@ -62,7 +62,7 @@
             <?php } ?>
 
         </div>
-    </sectiion>
+    </section>
 
     
 </body>
