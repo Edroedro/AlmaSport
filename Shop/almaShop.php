@@ -63,10 +63,11 @@
                  <p1>Ciao $nome! Solo per questo periodo c'è il nuovo codice sconto  </p1> <h4> 30PLS</h4><p1>!</p1></div>";?>
             <?php else: ?>
                 <p>Iscriviti e potrai usufruire subito dell'esclusivo codice sconto!</p>
+            <?php endif; ?>
             <a href="cart.php" class="btn">Acquista ora!
                 <i class="ri-arrow-right-line"></i>
             </a>      
-            <?php endif; ?>
+
 
         </div>
     </section>
@@ -92,7 +93,7 @@
                 </div>
                 <div class="row-in">
                     <div class="row-left">
-                        <a href="">
+                        <a href="cart.php">
                             Aggiungi al carrello
                             <i class="ri-shopping-cart-line"></i>
                         </a>
@@ -118,7 +119,7 @@
                 </div>
                 <div class="row-in">
                     <div class="row-left">
-                        <a href="">
+                        <a href="cart.php">
                             Aggiungi al carrello
                             <i class="ri-shopping-cart-line"></i>
                         </a>
@@ -144,7 +145,7 @@
                 </div>
                 <div class="row-in">
                     <div class="row-left">
-                        <a href="">
+                        <a href="cart.php">
                             Aggiungi al carrello
                             <i class="ri-shopping-cart-line"></i>
                         </a>
@@ -170,7 +171,7 @@
                 </div>
                 <div class="row-in">
                     <div class="row-left">
-                        <a href="">
+                        <a href="cart.php">
                             Aggiungi al carrello
                             <i class="ri-shopping-cart-line"></i>
                         </a>
@@ -196,7 +197,7 @@
                 </div>
                 <div class="row-in">
                     <div class="row-left">
-                        <a href="">
+                        <a href="cart.php">
                             Aggiungi al carrello
                             <i class="ri-shopping-cart-line"></i>
                         </a>
@@ -222,7 +223,7 @@
                 </div>
                 <div class="row-in">
                     <div class="row-left">
-                        <a href="">
+                        <a href="cart.php">
                             Aggiungi al carrello
                             <i class="ri-shopping-cart-line"></i>
                         </a>
@@ -248,7 +249,7 @@
                 </div>
                 <div class="row-in">
                     <div class="row-left">
-                        <a href="">
+                        <a href="cart.php">
                             Aggiungi al carrello
                             <i class="ri-shopping-cart-line"></i>
                         </a>
@@ -274,7 +275,7 @@
                 </div>
                 <div class="row-in">
                     <div class="row-left">
-                        <a href="">
+                        <a href="cart.php">
                             Aggiungi al carrello
                             <i class="ri-shopping-cart-line"></i>
                         </a>
@@ -300,7 +301,7 @@
                 </div>
                 <div class="row-in">
                     <div class="row-left">
-                        <a href="">
+                        <a href="cart.php">
                             Aggiungi al carrello
                             <i class="ri-shopping-cart-line"></i>
                         </a>
@@ -326,7 +327,7 @@
                 </div>
                 <div class="row-in">
                     <div class="row-left">
-                        <a href="">
+                        <a href="cart.php">
                             Aggiungi al carrello
                             <i class="ri-shopping-cart-line"></i>
                         </a>
@@ -352,7 +353,7 @@
                 </div>
                 <div class="row-in">
                     <div class="row-left">
-                        <a href="">
+                        <a href="cart.php">
                             Aggiungi al carrello
                             <i class="ri-shopping-cart-line"></i>
                         </a>
@@ -378,7 +379,7 @@
                 </div>
                 <div class="row-in">
                     <div class="row-left">
-                        <a href="">
+                        <a href="cart.php">
                             Aggiungi al carrello
                             <i class="ri-shopping-cart-line"></i>
                         </a>

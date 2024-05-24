@@ -1,19 +1,9 @@
-<?php
-    session_start();
-    include("../Connessione/config.php");
-    $logged = isset($_SESSION['valid']);
-    $nome = $logged ? $_SESSION['Nome'] : ''; 
-
-    $json_data = file_get_contents('product.json');
-    $products =json_decode($json_data, true);
-?>
-
 <!DOCTYPE html>
 <html lang="it">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Carrello ennesima volta</title>
+    <title>Carrello</title>
     <link rel="stylesheet" href="cart.css">
 </head>
 <body>
@@ -68,15 +58,13 @@
                 CHIUDI
             </div>
             <div class="checkout">
-                <a href="checkout.php">CHECKOUT</a>
+                <a href="checkout.html">CHECKOUT</a>
             </div>
         </div>
     </div>
 
 
-    <script src="cart.js">
-        var products = <?php echo json_encode($products); ?>;
-    </script>
+    <script src="cart.js"></script>
     
 </body>
 </html>
