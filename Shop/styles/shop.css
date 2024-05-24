@@ -91,7 +91,26 @@
         color: #810614;
 
     }
+    .message{
+        display: block;
+        max-width: 560px;
+    }
+    p1{
 
+        width:100%;
+        max-width: 560px;
+        font-size:18px;
+        font-weight:400;
+        color:white;
+        line-height:33px;
+        margin-bottom:35px;
+    }
+    h4{
+        display: inline;
+        color: #ffc633;
+        font-size: 22px;
+        letter-spacing: 1px;
+    }
     #menu-icon{
         font-size:35px;
         color:var(--text-color);
@@ -632,6 +651,7 @@
             .home-text h1{
                 font-size:2rem;
                 margin-bottom: 20px;
+                color: #ffc633;
             }
     
             .home-text h6{
@@ -649,6 +669,15 @@
             }
             .btn{
                 background-color: #ffc633;
+            }
+
+            p1{
+                font-size:18px;
+
+            }
+            h4{
+                color: #00C0ED;
+
             }
 
         }
