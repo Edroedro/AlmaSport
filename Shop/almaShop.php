@@ -58,10 +58,16 @@
         <div class="home-text" data-aos="fade-up">
             <h6>Welcome to Almashop!</h6>
             <h1>Dedicato agli studenti <br> Approfitta adesso!</h1>
-            <p>Iscriviti e potrai usufruire subito dell'esclusivo codice sconto!</p>
+            <?php if ($logged): ?>
+                <?php echo "<div class='message'>
+                 <p1>Ciao $nome! Solo per questo periodo c'è il nuovo codice sconto  </p1> <h4> 30PLS</h4><p1>!</p1></div>";?>
+            <?php else: ?>
+                <p>Iscriviti e potrai usufruire subito dell'esclusivo codice sconto!</p>
             <a href="cart.php" class="btn">Acquista ora!
                 <i class="ri-arrow-right-line"></i>
             </a>      
+            <?php endif; ?>
+
         </div>
     </section>
 
