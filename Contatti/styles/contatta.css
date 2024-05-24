@@ -18,13 +18,8 @@ margin:auto;
 overflow: hidden;
 
 }
-span.form-info{
-    display:flex;
-    justify-items: center;
-    text-align: center;
-    width: 250px;
 
-}
+
 .container h2{
     align-items: center;
     font-size: 42px;
@@ -64,14 +59,24 @@ font-size: 24px;
 
 
 }
+span.form-info{
+    display:flex;
+    justify-items: center;
+    text-align: center;
+    width: 250px;
+    font-size: 16px;
+    font-style: italic;
+    color:white;
+    justify-content: center;
 
+}
 
 .contact-form i.fa{
 
 font-size: 22px;
-padding: 3%;
+padding: 2%;
 background-color: none;
-margin:2%;
+margin:1%;
 border-radius: 80%;
 cursor: pointer;
 border:2px solid;
@@ -97,15 +102,7 @@ color:#810614;
 }
 
 
-.form-info{
 
-font-size: 16px;
-font-style: italic;
-color:white;
-justify-content: center;
-
-
-}
 
 input{
 
@@ -211,12 +208,6 @@ a.button:hover{
 /* media queries */
 
 @media(max-width:768px){
-    span.form-info{
-        text-align: center;
-        display: block;
-        justify-content: center;
-        width: 100%;
-    }
 
     #contact-section .contact-form{
 
@@ -229,9 +220,59 @@ a.button:hover{
 
         width:70%;
     }
+    .wrapper{
+        display: flex;
+        align-items:center;
+        margin-block: 10vw;
+    }
+
+    span.form-info{
+        font-size: 1rem;
+    }
     .backbtn{
         margin-right: 0%;
     }
+    a.button{
+        display: inline;
+        margin-right: 0;
+    }
+    span.form-info{
+        display:flex;
+        justify-content: start;
+        text-align: start;
+        width: auto;
+        font-size: 14px;
+        font-style: italic;
+        color:white;
+        letter-spacing: 0.5px;
+    
+    }
+    
+    .contact-form i.fa{
+    
+    font-size: 16px;
+    padding: 2%;
+    background-color: none;
+    margin:1%;
+    border-radius: 80%;
+    cursor: pointer;
+    border:2px solid;
+    color:white;
+    
+    }
+    input.submit{
+        margin-bottom:7vh;
+    }
 
-
+}
+@media (max-width:500px){
+    span.form-info{
+        font-size:10px;
+        letter-spacing: 0.3px;
+    }
+    .contact-form i.fa{
+        font-size: 10px;
+        padding:1.4%;
+        margin:1%;
+    }
 }
