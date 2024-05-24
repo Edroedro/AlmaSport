@@ -54,7 +54,6 @@
         <input type="password" name="Password" placeholder="Password" minlength="6" size="20" maxlength="20" required>
         <input type="submit" name="submit" class="button" value="LOGIN">  
         <p> Non hai un account? <a href="registrazione.php"> CREA  ACCOUNT   </a> </p>
-        <p>  <a href="reimposta.php"> PASSWORD DIMENTICATA?</a> </p>
     </form>
    </div>
    <?php } ?>
