@@ -20,7 +20,7 @@
                 $matricola = mysqli_real_escape_string($conn,$_POST['Matricola']);
                 $password = mysqli_real_escape_string($conn,$_POST['Password']);
     
-                $result = mysqli_query($conn,"SELECT * FROM registrazione WHERE Matricola='$matricola' AND Password='$password'") or die("Select Error");
+                $result = mysqli_query($conn,"SELECT * FROM registrazione WHERE Matricola='$matricola' AND Password='$password'");
                 $row = mysqli_fetch_assoc($result);
     
                 if(is_array($row) && !empty($row)){
