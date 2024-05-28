@@ -263,7 +263,7 @@ header .totalQuantity{
     justify-content: center;
     align-items: center;
     transition: 0.3s;
-    font-size: 24px;
+    font-size: 20px;
     
 }
 .buttonCheckout:hover{
@@ -296,3 +296,11 @@ header .totalQuantity{
     font-size: large;
     font-weight: bold;
 }
+
+
+@media (max-width: 768px) {
+    .checkoutLayout {
+        grid-template-columns: 1fr;
+    }
+}
+
